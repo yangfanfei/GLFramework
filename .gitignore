@@ -1,2 +1,11 @@
 *.obj
 *.tlog
+GLFramework/GLFramework/GLFramework.VC.db
+GLFramework/GLFramework/Debug/GLFramework.exe
+GLFramework/GLFramework/Debug/GLFramework.ilk
+GLFramework/GLFramework/Debug/GLFramework.pdb
+GLFramework/GLFramework/GLFramework/Debug/GLFramework.Build.CppClean.log
+GLFramework/GLFramework/GLFramework/Debug/GLFramework.log
+GLFramework/GLFramework/GLFramework/Debug/vc140.idb
+GLFramework/GLFramework/GLFramework/Debug/vc140.pdb
+GLFramework/GLFramework/GLFramework/GLFramework.vcxproj.user
