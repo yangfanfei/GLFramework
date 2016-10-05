@@ -152,13 +152,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\glShader.cpp" />
-    <ClCompile Include="..\src\glShaderManager.cpp" />
+    <ClCompile Include="..\src\camera.cpp" />
+    <ClCompile Include="..\src\mvp.cpp" />
+    <ClCompile Include="..\src\shader.cpp" />
+    <ClCompile Include="..\src\shaderManager.cpp" />
     <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\matrix.cpp" />
+    <ClCompile Include="..\src\quaternion.cpp" />
+    <ClCompile Include="..\src\vertor.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\include\glShader.h" />
-    <ClInclude Include="..\include\glShaderManager.h" />
+    <ClInclude Include="..\include\camera.h" />
+    <ClInclude Include="..\include\mvp.h" />
+    <ClInclude Include="..\include\shader.h" />
+    <ClInclude Include="..\include\shaderManager.h" />
+    <ClInclude Include="..\include\matrix.h" />
+    <ClInclude Include="..\include\quaternion.h" />
+    <ClInclude Include="..\include\vertor.h" />
+    <ClInclude Include="..\src\common.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\shader\base.fs" />
+    <None Include="..\shader\base.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
